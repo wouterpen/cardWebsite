@@ -1,0 +1,12 @@
+<nav class="navbar">
+  <ul class="navbar__items">
+    <li *ngFor="let item of navbarItemsAndSubitems" class="navbar__item">
+      <a [routerLink]="[item.link]"> {{ item.title }} </a>
+      <ul *ngIf="item.children" class="navbar__subitems">
+        <li *ngFor="let child of item.children" class="navbar__subitems__subitem">
+          <a>{{ child.title }}</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

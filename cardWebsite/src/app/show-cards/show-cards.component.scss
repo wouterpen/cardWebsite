@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  .plan {
+    flex: 1 1 33%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ecda9526;
+    box-shadow: 5px 10px #15110026;
+    box-sizing:  border-box;
+    &:hover {
+      background-color: #15110026;
+    }
+  }
+}
+
