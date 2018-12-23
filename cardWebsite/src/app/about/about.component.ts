@@ -14,21 +14,21 @@ export class AboutComponent {
   arrayOfCardImages = [
     {
       name: 'cardName',
-    cardImage: 'ansichtkaarten_66.jpg',
+    cardImage: 'rose.jpg',
     price: '$1.50',
     serialNumber: '#000001',
     contactInfo: '061151188'
   },
     {
       name: 'cardName',
-    cardImage: 'Ansichtkaarten.jpg',
+    cardImage: 'its-not-you-its-me.jpg',
     price: '$1.50',
     serialNumber: '#000001',
     contactInfo: '061151188'
   },
     {
       name: 'cardName',
-    cardImage: 'ansichtkaarten_66.jpg',
+    cardImage: 'start-small-dream-big.jpg',
     price: '$1.50',
     serialNumber: '#000001',
     contactInfo: '061151188'

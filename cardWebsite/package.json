@@ -16,7 +16,7 @@
   },
   "lint-staged": {
     "linters": {
-      "*.html":[
+      "*.html": [
         "prettier --write --config prettier.html.config.js",
         "git add"
       ],
