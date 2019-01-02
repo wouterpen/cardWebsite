@@ -26,6 +26,21 @@ export class AboutComponent {
     serialNumber: '#000001',
     contactInfo: '061151188'
   },
+  {
+    name: 'cardName',
+  cardImage: 'its-not-you-its-me.jpg',
+  price: '$1.50',
+  serialNumber: '#000001',
+  contactInfo: '061151188'
+},
+{
+  name: 'cardName',
+cardImage: 'its-not-you-its-me.jpg',
+price: '$1.50',
+serialNumber: '#000001',
+contactInfo: '061151188'
+}
+,
     {
       name: 'cardName',
     cardImage: 'start-small-dream-big.jpg',

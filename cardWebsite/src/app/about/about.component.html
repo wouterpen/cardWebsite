@@ -1,8 +1,10 @@
 <div class="container" id="container">
-  <img
-    *ngFor="let card of arrayOfCardImages"
-    (click)="openDialog(card)"
-    class="image"
-    src="../.././assets/{{ card.cardImage }}"
-  />
+  <div class="container2">
+    <img
+      *ngFor="let card of arrayOfCardImages"
+      (click)="openDialog(card)"
+      class="image"
+      src="../.././assets/{{ card.cardImage }}"
+    />
+  </div>
 </div>
