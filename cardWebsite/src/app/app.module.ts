@@ -11,6 +11,7 @@ import { ShowCardsComponent } from './show-cards/show-cards.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
 import { CardInformationDialogComponent } from './card-information-dialog/card-information-dialog.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardInformationDialogComponent } from './card-information-dialog/card-i
     ShowCardsComponent,
     PortfolioComponent,
     AboutComponent,
-    CardInformationDialogComponent
+    CardInformationDialogComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
